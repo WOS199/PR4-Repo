@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+body {
+  background-color: black;
+  font-family: "Roboto";
+  font-size: 16px;
+  color: black;
+}
+
+/* -----FULL WIDTH----- */
+.fw {
+  width: 100%;
+}
+
+/* -----FLEX----- */
+.flx {
+  display: flex;
+}
+.flx--ctr {
+  justify-content: center;
+  align-items: center;
+}
+.flx--col {
+  flex-direction: column;
+}
+
+/* -----ICON COLOR----- */
+.fa-solid {
+  color: #7E7E7E;
+  font-size: 1.1rem;
+}
+.fa-solid--main-color {
+  color: #9356DC;
+}
+
+.txt-loc {
+  font-weight: 500;
+  color: #353535;
+}
+
+.txt-h1 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.txt-p {
+  font-size: 18;
+  font-weight: 300;
+}
+
+.txt--ctr {
+  text-align: center;
+}
+
+.header {
+  width: 100%;
+  background-color: #fff;
+  position: relative;
+}
+.header__nav {
+  height: 60px;
+}
+.header__nav .logo {
+  width: 162px;
+  margin-top: 10px;
+}
+.header__loc {
+  height: 50px;
+  background-color: #EAEAEA;
+  gap: 17px;
+}
+.header__back {
+  position: absolute;
+  left: 25px;
+}
+.header__arrow {
+  color: #353535;
+}
+
+.menu-hero {
+  height: 275px;
+  background: url(../../assets/images/restaurants/resized/1920x1080_rst-01.jpg);
+  background-size: cover;
+  justify-content: flex-end;
+}
+.menu-hero__intro {
+  height: 80px;
+  border-radius: 25px 25px 0 0;
+  background-color: #F6F6F6;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.menu-hero__intro h1 {
+  font-family: "Shrikhand";
+  font-size: 28px;
+  font-weight: unset;
+}
+.menu-hero__heart-container {
+  position: relative;
+}
+.menu-hero__heart-outline {
+  position: relative;
+  font-size: 24px;
+  height: 24px;
+  z-index: 1;
+  transition: opacity 0.2s;
+  cursor: pointer;
+}
+.menu-hero__heart-outline:hover {
+  opacity: 0;
+}
+.menu-hero__heart-outline:hover + .menu-hero__heart-gradient {
+  opacity: 1;
+  transform: scale(1);
+}
+.menu-hero__heart-gradient {
+  font-size: 24px;
+  background: linear-gradient(0deg, #FF79DA 50%, #9356DC 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  transition: transform 0.2s;
+  transform: scale(0);
+}/*# sourceMappingURL=la_palette_du_gout.css.map */

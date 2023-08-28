@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Ohmyfood</title>
-        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="../../pages/homepage/home.css" type="text/css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&family=Shrikhand&display=swap" rel="stylesheet">
@@ -18,10 +18,10 @@
     <body>
         <header class="header">
             <div class="header__nav flx flx--ctr">
-                <a><img class="logo" src="./assets/images/logo/ohmyfood.png" alt="logotype Ohmyfood"></a>
+                <a><img class="logo" src="../../assets/images/logo/ohmyfood.png" alt="logotype Ohmyfood"></a>
             </div>
             <div class="header__loc flx flx--ctr">
-                <i class="fa-solid fa-location-dot color--dark"></i>
+                <i class="fa-solid fa-location-dot"></i>
                 <span class="txt-loc">Paris, Belleville</span>
             </div>
         </header>
@@ -32,30 +32,30 @@
         </section>
         <section class="nmb-container flx flx--ctr flx--col">
             <h2 class="fw">Fonctionnement</h2>
-            <div class="numbered-card flx">
-              <span class="numbered-card__number flx flx--ctr">1</span>
-              <div class="numbered-card__col1 flx flx--ctr">
+            <div class="nmb-card flx">
+              <span class="nmb-card__number flx flx--ctr">1</span>
+              <div class="nmb-card__col1 flx flx--ctr">
                 <i class="fa-solid fa-mobile-screen-button"></i>
               </div>
-              <div class="numbered-card__col2 flx flx--ctr">
+              <div class="nmb-card__col2 flx flx--ctr">
                 <p>Choisissez un restaurant</p>
               </div>
             </div>
-            <div class="numbered-card flx">
-              <span class="numbered-card__number flx flx--ctr">2</span>
-              <div class="numbered-card__col1 flx flx--ctr">
+            <div class="nmb-card flx">
+              <span class="nmb-card__number flx flx--ctr">2</span>
+              <div class="nmb-card__col1 flx flx--ctr">
                 <i class="fa-solid fa-list-ul"></i>
               </div>
-              <div class="numbered-card__col2 flx flx--ctr">
+              <div class="nmb-card__col2 flx flx--ctr">
                 <p>Composez votre menu</p>
               </div>
             </div>
-            <div class="numbered-card flx">
-              <span class="numbered-card__number flx flx--ctr">3</span>
-              <div class="numbered-card__col1 flx flx--ctr">
+            <div class="nmb-card flx">
+              <span class="nmb-card__number flx flx--ctr">3</span>
+              <div class="nmb-card__col1 flx flx--ctr">
                 <i class="fa-solid fa-store fa-solid--main-color"></i>
               </div>
-              <div class="numbered-card__col2 flx flx--ctr">
+              <div class="nmb-card__col2 flx flx--ctr">
                 <p>Dégustez au restaurant</p>
               </div>
             </div>
@@ -63,12 +63,12 @@
         <section class="rst-container flx flx--ctr flx--col">
             <h2 class="fw">Restaurants</h2>
             <a href="#" class="rst-card">
-                <img src="https://placehold.co/1920x1280" alt="Un plat bien présenté, servi sur la table d'un restaurant"></img>
+                <img src="../../assets/images/restaurants/resized/1920x1080_rst-01.jpg" alt="Un plat bien présenté, servi sur la table d'un restaurant"></img>
                 <span class="rst-card__label">Nouveau</span>
                 <div class="rst-card__info flx">
                   <div class="rst-card__txt flx flx--col">
                     <h3>La palette du goût</h3>
-                    <p>Ménilmontant</p>
+                    <p class="txt-p">Ménilmontant</p>
                   </div>
                   <div class="rst-card__heart flx">
                     <i class="rst-card__heart-outline fa-regular fa-heart"></i>
@@ -77,12 +77,12 @@
               </div>
             </a>
             <a href="#" class="rst-card">
-                <img src="https://placehold.co/1920x1280" alt="Un plat bien présenté, servi sur la table d'un restaurant"></img>
+                <img src="../../assets/images/restaurants/resized/1920x1080_rst-02.jpg" alt="Un plat bien présenté, servi sur la table d'un restaurant"></img>
                 <span class="rst-card__label">Nouveau</span>
                 <div class="rst-card__info flx">
                   <div class="rst-card__txt flx flx--col">
-                    <h3>La palette du goût</h3>
-                    <p>Ménilmontant</p>
+                    <h3>La note enchantée</h3>
+                    <p class="txt-p">Charonne</p>
                   </div>
                   <div class="rst-card__heart flx">
                     <i class="rst-card__heart-outline fa-regular fa-heart"></i>
@@ -91,12 +91,11 @@
               </div>
             </a>
             <a href="#" class="rst-card">
-                <img src="https://placehold.co/1920x1280" alt="Un plat bien présenté, servi sur la table d'un restaurant"></img>
-                <span class="rst-card__label">Nouveau</span>
+                <img src="../../assets/images/restaurants/resized/1920x1080_rst-03.jpg" alt="Un plat bien présenté, servi sur la table d'un restaurant"></img>
                 <div class="rst-card__info flx">
                   <div class="rst-card__txt flx flx--col">
-                    <h3>La palette du goût</h3>
-                    <p>Ménilmontant</p>
+                    <h3>À la française</h3>
+                    <p class="txt-p">Cité Rouge</p>
                   </div>
                   <div class="rst-card__heart flx">
                     <i class="rst-card__heart-outline fa-regular fa-heart"></i>
@@ -104,6 +103,26 @@
                   </div>
               </div>
             </a>
+            <a href="#" class="rst-card">
+              <img src="../../assets/images/restaurants/resized/1920x1080_rst-04.jpg" alt="Un plat bien présenté, servi sur la table d'un restaurant"></img>
+              <div class="rst-card__info flx">
+                <div class="rst-card__txt flx flx--col">
+                  <h3>Le délice des sens</h3>
+                  <p class="txt-p">Folie-Méricourt</p>
+                </div>
+                <div class="rst-card__heart flx">
+                  <i class="rst-card__heart-outline fa-regular fa-heart"></i>
+                  <i class="rst-card__heart-gradient fa-solid fa-heart"></i>
+                </div>
+            </div>
+          </a>
         </section>
+        <footer class="footer flx flx--col">
+          <a href="#"><img class="logo-footer" src="../../assets/images/logo/ohmyfood.png" alt="logotype Ohmyfood"></a>
+          <a href="#" class="txt-p"><span class="footer__icon--utensils">Proposer un restaurant</span></a>
+          <a href="#" class="txt-p"><span class="footer__icon--handshake">Devenir partenaire</span></a>
+          <a href="#" class="txt-p">Proposer un restaurant</a>
+          <a href="#" class="txt-p">Mentions légales</a>
+        </footer>
     </body>
 </html>

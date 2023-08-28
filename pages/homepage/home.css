@@ -3,6 +3,11 @@
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: unset;
+}
+
 body {
   background-color: black;
   font-family: "Roboto";
@@ -10,15 +15,12 @@ body {
   color: black;
 }
 
+/* -----FULL WIDTH----- */
 .fw {
   width: 100%;
 }
 
-a {
-  text-decoration: none;
-  color: unset;
-}
-
+/* -----FLEX----- */
 .flx {
   display: flex;
 }
@@ -30,10 +32,7 @@ a {
   flex-direction: column;
 }
 
-.color--dark {
-  color: #353535;
-}
-
+/* -----ICON COLOR----- */
 .fa-solid {
   color: #7E7E7E;
   font-size: 1.1rem;
@@ -42,7 +41,6 @@ a {
   color: #9356DC;
 }
 
-/* -----TEXT STYLES----- */
 .txt-loc {
   font-weight: 500;
   color: #353535;
@@ -62,24 +60,31 @@ a {
   text-align: center;
 }
 
-/* -----HEADER----- */
 .header {
   width: 100%;
   background-color: #fff;
+  position: relative;
 }
 .header__nav {
-  height: 65px;
+  height: 60px;
 }
 .header__nav .logo {
   width: 162px;
+  margin-top: 10px;
 }
 .header__loc {
   height: 50px;
   background-color: #EAEAEA;
   gap: 17px;
 }
+.header__back {
+  position: absolute;
+  left: 25px;
+}
+.header__arrow {
+  color: #353535;
+}
 
-/* -----HERO----- */
 .hero {
   background-color: #F6F6F6;
   width: 100%;
@@ -119,7 +124,6 @@ a {
   opacity: 1;
 }
 
-/* -----NUMBERED CARDS----- */
 .nmb-container {
   width: 100%;
   background-color: #fff;
@@ -129,7 +133,7 @@ a {
   margin-left: -20px;
 }
 
-.numbered-card {
+.nmb-card {
   width: 100%;
   max-width: 635px;
   height: 70px;
@@ -139,7 +143,7 @@ a {
   position: relative;
   margin-top: 20px;
 }
-.numbered-card__number {
+.nmb-card__number {
   width: 25px;
   height: 25px;
   background-color: #9356DC;
@@ -150,11 +154,10 @@ a {
   color: #FFFFFF;
   font-size: 0.8rem;
 }
-.numbered-card__col1 {
+.nmb-card__col1 {
   width: 80px;
 }
 
-/* -----RESTAURANT CARDS----- */
 .rst-container {
   width: 100%;
   padding: 50px 20px;
@@ -230,4 +233,31 @@ a {
   opacity: 1;
   transition: transform 0.2s;
   transform: scale(0);
-}/*# sourceMappingURL=main.css.map */
+}
+
+.footer {
+  background-color: #353535;
+  padding: 20px;
+}
+.footer a {
+  color: #fff;
+  line-height: 1.5rem;
+}
+.footer__icon--utensils::before {
+  content: "\f2e7";
+  font: var(--fa-font-solid);
+  font-size: 15px;
+  margin-right: 10px;
+}
+.footer__icon--handshake::before {
+  content: "\f4c4";
+  font: var(--fa-font-solid);
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.logo-footer {
+  width: 120px;
+  filter: invert(1);
+  margin-bottom: 15px;
+}/*# sourceMappingURL=home.css.map */

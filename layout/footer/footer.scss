@@ -1,0 +1,28 @@
+@use '../../utils/helpers/utils-helpers.scss';
+
+.footer {
+    background-color: utils-helpers.$color--dark;
+    padding: 20px;
+    & a {
+        color: #fff;
+        line-height: 1.5rem;
+    }
+    &__icon--utensils::before {
+        content: "\f2e7";
+        font: var(--fa-font-solid);
+        font-size: 15px;
+        margin-right: 10px;
+    }
+    &__icon--handshake::before {
+        content: "\f4c4";
+        font: var(--fa-font-solid);
+        font-size: 15px;
+        margin-right: 10px;
+    }
+}
+
+.logo-footer {
+    width: 120px;
+    filter: invert(1);
+    margin-bottom: 15px;
+}

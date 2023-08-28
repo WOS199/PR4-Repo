@@ -1,0 +1,12 @@
+@use '../../utils/helpers/utils-helpers.scss';
+@use '../../components/helpers/components-helpers.scss';
+
+.rst-container {
+    width: 100%;
+    padding: 50px 20px;
+    background-color: utils-helpers.$color--background;
+}
+
+.rst-card {
+    @include components-helpers.rst-card;
+  }

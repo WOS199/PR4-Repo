@@ -1,0 +1,25 @@
+/* -----FULL WIDTH----- */
+.fw {
+  width: 100%;
+}
+
+/* -----FLEX----- */
+.flx {
+  display: flex;
+}
+.flx--ctr {
+  justify-content: center;
+  align-items: center;
+}
+.flx--col {
+  flex-direction: column;
+}
+
+/* -----ICON COLOR----- */
+.fa-solid {
+  color: #7E7E7E;
+  font-size: 1.1rem;
+}
+.fa-solid--main-color {
+  color: #9356DC;
+}/*# sourceMappingURL=general.css.map */

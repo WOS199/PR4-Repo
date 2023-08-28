@@ -1,0 +1,20 @@
+@use '../../utils/helpers/utils-helpers.scss';
+
+.txt-loc {
+    font-weight: 500;
+    color: utils-helpers.$color--dark
+}
+
+.txt-h1 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.txt-p {
+    font-size: 18;
+    font-weight: 300;
+}
+
+.txt--ctr {
+    text-align: center;
+}

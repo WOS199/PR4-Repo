@@ -1,0 +1,24 @@
+.header {
+  width: 100%;
+  background-color: #fff;
+  position: relative;
+}
+.header__nav {
+  height: 60px;
+}
+.header__nav .logo {
+  width: 162px;
+  margin-top: 10px;
+}
+.header__loc {
+  height: 50px;
+  background-color: #EAEAEA;
+  gap: 17px;
+}
+.header__back {
+  position: absolute;
+  left: 25px;
+}
+.header__arrow {
+  color: #353535;
+}/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,12 @@
+@use '../../utils/helpers/utils-helpers.scss';
+@use '../../components/helpers/components-helpers.scss';
+
+.hero {
+    background-color: utils-helpers.$color--background;
+    width: 100%;
+    padding: 50px 20px;
+    gap: 10px;
+    &__btn {
+        @include components-helpers.btn;
+    }
+}

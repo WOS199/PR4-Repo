@@ -1,0 +1,18 @@
+.txt-loc {
+  font-weight: 500;
+  color: #353535;
+}
+
+.txt-h1 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.txt-p {
+  font-size: 18;
+  font-weight: 300;
+}
+
+.txt--ctr {
+  text-align: center;
+}/*# sourceMappingURL=typography.css.map */
