@@ -1,1 +1,5 @@
-/*# sourceMappingURL=restaurant-card.css.map */
+@media screen and (min-width: 1024px) {
+  .rst-card {
+    width: 49% !important;
+  }
+}/*# sourceMappingURL=restaurant-card.css.map */

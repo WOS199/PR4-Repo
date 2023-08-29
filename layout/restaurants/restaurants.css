@@ -1,14 +1,33 @@
+@media screen and (min-width: 1024px) {
+  .nmb-card {
+    flex: 1;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .rst-card {
+    width: 49% !important;
+  }
+}
 .rst-container {
-  width: 100%;
   padding: 50px 20px;
   background-color: #F6F6F6;
+}
+.rst-container__storage {
+  max-width: 1080px;
+}
+.rst-container__box {
+  flex-direction: column;
+  max-width: 1080px;
+  margin-top: 20px;
+  gap: 18px;
+}
+.rst-container__row {
+  width: 100%;
 }
 
 .rst-card {
   width: 100%;
-  max-width: 500px;
   height: 250px;
-  margin-top: 20px;
   background-color: #fff;
   border-radius: 15px;
   box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
@@ -73,4 +92,10 @@
   opacity: 1;
   transition: transform 0.2s;
   transform: scale(0);
+}
+
+@media screen and (min-width: 1024px) {
+  .rst-container__box {
+    flex-direction: row;
+  }
 }/*# sourceMappingURL=restaurants.css.map */

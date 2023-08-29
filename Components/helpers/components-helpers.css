@@ -1,1 +1,10 @@
-/*# sourceMappingURL=components-helpers.css.map */
+@media screen and (min-width: 1024px) {
+  .nmb-card {
+    flex: 1;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .rst-card {
+    width: 49% !important;
+  }
+}/*# sourceMappingURL=components-helpers.css.map */

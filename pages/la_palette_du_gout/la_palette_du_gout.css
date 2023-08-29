@@ -23,6 +23,7 @@ body {
 /* -----FLEX----- */
 .flx {
   display: flex;
+  flex-wrap: wrap;
 }
 .flx--ctr {
   justify-content: center;

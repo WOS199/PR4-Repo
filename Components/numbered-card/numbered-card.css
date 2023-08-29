@@ -1,1 +1,5 @@
-/*# sourceMappingURL=numbered-card.css.map */
+@media screen and (min-width: 1024px) {
+  .nmb-card {
+    flex: 1;
+  }
+}/*# sourceMappingURL=numbered-card.css.map */

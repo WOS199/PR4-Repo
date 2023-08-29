@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"restaurant-card.css"}
+{"version":3,"sources":["restaurant-card.scss","restaurant-card.css"],"names":[],"mappings":"AAsEA;EACE;IACE,qBAAA;ECrEF;AACF","file":"restaurant-card.css"}

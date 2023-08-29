@@ -10,6 +10,7 @@
 
 .flx {
     display: flex;
+    flex-wrap: wrap;
     &--ctr {
         justify-content: center;
         align-items: center;

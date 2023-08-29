@@ -1,21 +1,37 @@
+@media screen and (min-width: 1024px) {
+  .nmb-card {
+    flex: 1;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .rst-card {
+    width: 49% !important;
+  }
+}
 .nmb-container {
   width: 100%;
   background-color: #fff;
-  padding: 50px 20px 50px 30px;
+  padding: 50px 20px 50px 20px;
 }
-.nmb-container h2 {
-  margin-left: -20px;
+.nmb-container__storage {
+  max-width: 1080px;
+}
+.nmb-container__box {
+  flex-direction: column;
+  width: 100%;
+  max-width: 1080px;
+  margin-top: 20px;
+  padding-left: 10px;
+  gap: 20px;
 }
 
 .nmb-card {
   width: 100%;
-  max-width: 635px;
   height: 70px;
   background-color: #F6F6F6;
   border-radius: 15px;
   box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
   position: relative;
-  margin-top: 20px;
 }
 .nmb-card__number {
   width: 25px;
@@ -30,4 +46,10 @@
 }
 .nmb-card__col1 {
   width: 80px;
+}
+
+@media screen and (min-width: 1024px) {
+  .nmb-container__box {
+    flex-direction: row;
+  }
 }/*# sourceMappingURL=fonctionnement.css.map */
