@@ -1,12 +1,37 @@
 @use '../../utils/helpers/utils-helpers.scss';
+@use '../../components/helpers/components-helpers.scss';
+@use '../../components/menu-card/menu-card.scss';
 
 .menu {
-    
-    &__box {
+    background-color: #FFF;
+    &__background {
     width: 100%;
     max-width: 1080px;
-    height: 500px;
+    padding: 50px 20px 0 20px;
     background-color: utils-helpers.$color--background;
     align-items: center;
     }
 }
+
+.menu__box {
+    width: 100%;
+    max-width: 600px;
+}
+
+.spacer {
+    height: 20px;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.divider {
+    border: .5px solid utils-helpers.$color--hightlight;
+    width: 40px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+  
