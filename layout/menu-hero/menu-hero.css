@@ -3,9 +3,12 @@
   background: url(../../assets/images/restaurants/resized/1920x1080_rst-01.jpg);
   background-size: cover;
   justify-content: flex-end;
+  align-items: center;
 }
 .menu-hero__intro {
   height: 80px;
+  max-width: 1080px;
+  width: 100%;
   border-radius: 25px 25px 0 0;
   background-color: #F6F6F6;
   justify-content: space-between;

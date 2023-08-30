@@ -1,0 +1,12 @@
+@use '../../utils/helpers/utils-helpers.scss';
+
+.menu {
+    
+    &__box {
+    width: 100%;
+    max-width: 1080px;
+    height: 500px;
+    background-color: utils-helpers.$color--background;
+    align-items: center;
+    }
+}
