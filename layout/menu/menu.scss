@@ -11,6 +11,13 @@
     background-color: utils-helpers.$color--background;
     align-items: center;
     }
+    &__btn {
+        @include components-helpers.btn;
+        margin: 40px auto;
+        display: block;
+        text-align: center;
+        width: 140px;
+    }
 }
 
 .menu__box {

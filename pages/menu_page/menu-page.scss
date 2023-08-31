@@ -1,4 +1,5 @@
-@use '../../utils/variables/variables.scss';
+// @use '../../utils/variables/variables.scss';
+@use '../../utils/helpers/utils-helpers.scss';
 
 @use '../../base/reset/reset.scss';
 @use '../../base/general/general.scss';
@@ -9,3 +10,4 @@
 @use '../../layout/header/header.scss';
 @use '../../layout/menu-hero/menu-hero.scss';
 @use '../../layout/menu/menu.scss';
+@use '../../layout/footer/footer.scss';

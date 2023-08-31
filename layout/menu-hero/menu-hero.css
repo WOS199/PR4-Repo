@@ -1,3 +1,13 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -10%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
 .menu-hero {
   height: 275px;
   background: url(../../assets/images/restaurants/resized/1920x1080_rst-01.jpg);
@@ -14,6 +24,7 @@
   align-items: flex-end;
   justify-content: center;
   padding: 0 20px;
+  margin-bottom: -2px;
 }
 .menu-hero__intro h1 {
   font-family: "Shrikhand";
