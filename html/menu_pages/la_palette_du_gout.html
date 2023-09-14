@@ -6,7 +6,7 @@
     <title>La palette du goût</title>
     <link
       rel="stylesheet"
-      href="../../pages/menu_page/menu-page.css"
+      href="../../styles/pages-global-css/menu_page/menu-page.css"
       type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -23,10 +23,10 @@
   <body>
     <header class="header">
       <div class="header__nav flx flx--ctr">
-        <a class="header__back" href="#">
+        <a class="header__back" href="../homepage/homepage.html">
           <i class="header__arrow fa-solid fa-arrow-left"></i>
         </a>
-        <a
+        <a href="../homepage/homepage.html"
           ><img
             class="logo"
             src="../../assets/images/logo/ohmyfood.png"
@@ -34,7 +34,7 @@
         /></a>
       </div>
     </header>
-    <section class="menu-hero flx flx--col">
+    <section class="menu-hero menu-hero--background1 flx flx--col">
       <div class="menu-hero__intro flx">
         <div class="menu-hero__box flx flx--ctr">
           <h1>La palette du goût</h1>
@@ -169,9 +169,18 @@
       </div>
     </section>
     <footer class="footer flx flx--col">
-      <a href="#"><img class="logo-footer" src="../../assets/images/logo/ohmyfood.png" alt="logotype Ohmyfood"></a>
-      <a href="#" class="txt-p"><span class="footer__icon--utensils">Proposer un restaurant</span></a>
-      <a href="#" class="txt-p"><span class="footer__icon--handshake">Devenir partenaire</span></a>
+      <a href="../homepage/homepage.html"
+        ><img
+          class="logo-footer"
+          src="../../assets/images/logo/ohmyfood.png"
+          alt="logotype Ohmyfood"
+      /></a>
+      <a href="#" class="txt-p"
+        ><span class="footer__icon--utensils">Proposer un restaurant</span></a
+      >
+      <a href="#" class="txt-p"
+        ><span class="footer__icon--handshake">Devenir partenaire</span></a
+      >
       <a href="#" class="txt-p">Proposer un restaurant</a>
       <a href="#" class="txt-p">Mentions légales</a>
     </footer>

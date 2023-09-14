@@ -1,0 +1,34 @@
+@use "../../utils/helpers/utils-helpers.scss";
+@use "../../components/helpers/components-helpers.scss";
+
+.rst-container {
+  padding: 50px 20px;
+  background-color: utils-helpers.$color--background;
+  &__storage {
+    max-width: 1080px;
+  }
+  &__box {
+    flex-direction: column;
+    max-width: 1080px;
+    margin-top: 20px;
+    gap: 18px;
+  }
+  &__row {
+    width: 100%;
+  }
+}
+
+.rst-card {
+  @include components-helpers.rst-card;
+}
+
+@media screen and (min-width: 1024px) {
+  .rst-container {
+    &__box {
+      flex-direction: row;
+    }
+  }
+  .rst-card {
+    width: 49% !important;
+  }
+}
