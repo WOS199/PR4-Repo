@@ -1,0 +1,26 @@
+@use "../../utils/variables/variables.scss";
+
+.header {
+  width: 100%;
+  background-color: #fff;
+  position: relative;
+  &__nav {
+    height: 60px;
+    & .logo {
+      width: 162px;
+      margin-top: 10px;
+    }
+  }
+  &__loc {
+    height: 50px;
+    background-color: variables.$color--secondary_background;
+    gap: 17px;
+  }
+  &__back {
+    position: absolute;
+    left: 25px;
+  }
+  &__arrow {
+    color: variables.$color--dark;
+  }
+}

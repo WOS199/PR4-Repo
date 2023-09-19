@@ -1,0 +1,64 @@
+/* -----FULL WIDTH----- */
+.fw {
+  width: 100%;
+}
+
+/* -----FLEX----- */
+.flx {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flx--ctr {
+  justify-content: center;
+  align-items: center;
+}
+.flx--col {
+  flex-direction: column;
+}
+
+/* -----ICON COLOR----- */
+.fa-solid {
+  color: #7e7e7e;
+  font-size: 1.1rem;
+}
+.fa-solid--main-color {
+  color: #9356dc;
+}
+
+/* -----RESET----- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+body {
+  background-color: black;
+  font-family: "Roboto";
+  font-size: 16px;
+  color: black;
+}
+
+/* -----TYPOGRAPHY----- */
+.txt-loc {
+  font-weight: 500;
+  color: #353535;
+}
+
+.txt-h1 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.txt-p {
+  font-size: 18;
+  font-weight: 300;
+}
+
+.txt--ctr {
+  text-align: center;
+}/*# sourceMappingURL=general.css.map */
