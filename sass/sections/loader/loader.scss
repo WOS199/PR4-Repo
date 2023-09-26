@@ -8,7 +8,7 @@
     &__box {
     position: relative;
     font-family: "Shrikhand", sans-serif;
-    font-size: 80px;
+    font-size: 60px;
     & span {
       position: absolute;
       transform: translate(-50%, -50%);
@@ -110,10 +110,10 @@
     }
   }
 
-  @media screen and (max-width: 500px) {
+  @media screen and (min-width: 500px) {
     .loader-container {
         &__box {
-            font-size: 60px;
+            font-size: 80px;
         }
     }
   }

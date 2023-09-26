@@ -9,7 +9,7 @@
 .loader-container__box {
   position: relative;
   font-family: "Shrikhand", sans-serif;
-  font-size: 80px;
+  font-size: 60px;
 }
 .loader-container__box span {
   position: absolute;
@@ -61,8 +61,8 @@
             clip-path: polygon(0 0, 14% 0, 24% 0, 37% 0, 59% 0, 82% 0, 110% 0, 100% 100%, 0% 100%);
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 500px) {
   .loader-container__box {
-    font-size: 60px;
+    font-size: 80px;
   }
 }/*# sourceMappingURL=loader.css.map */

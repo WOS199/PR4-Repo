@@ -37,7 +37,6 @@ a {
 }
 
 body {
-  background-color: black;
   font-family: "Roboto";
   font-size: 16px;
   color: black;
@@ -55,7 +54,7 @@ body {
 }
 
 .txt-p {
-  font-size: 18;
+  font-size: 18px;
   font-weight: 300;
 }
 
@@ -374,13 +373,13 @@ h2 {
     gap: 20px;
   }
   .footer :nth-child(2) {
-    order: 2;
+    order: 3;
   }
   .footer :nth-child(3) {
-    order: 1;
+    order: 2;
     margin-right: 30px;
   }
   .footer :nth-child(4) {
-    margin-right: 30px;
+    order: 1;
   }
 }/*# sourceMappingURL=menu-page.css.map */
